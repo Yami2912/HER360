@@ -1,0 +1,34 @@
+{
+  "Target_Occupation": "Data Scientists (15-2051.00)",
+  "Match_Score": 1.0,
+  "Stated_Preferences": {
+    "Work_Mode": "Remote / Hybrid",
+    "Study_Pace": "8 hrs/week (Est. 6\u201310 weeks per upskilling phase)"
+  },
+  "Why_Recommended": "Strong alignment with your existing skills (Mathematics, Critical Thinking, Complex Problem Solving) and tools (microsoft excel, microsoft sql server, python).",
+  "Phases": [
+    {
+      "Phase": "Phase 1: Refresh & Position Existing Strengths (Weeks 1\u20132)",
+      "Actions": [
+        "Highlight your matched core skills on your resume: Mathematics, Critical Thinking, Complex Problem Solving, Programming.",
+        "Refresh hands-on fluency in tools you already know: microsoft excel, microsoft sql server, python, r, structured query language sql.",
+        "Frame past experience around outcomes relevant to Data Scientists roles."
+      ]
+    },
+    {
+      "Phase": "Phase 2: Close Priority Skill & Tool Gaps (6\u201310 weeks)",
+      "Actions": [
+        "Strengthen top missing O*NET core skills: Reading Comprehension, Active Learning, Writing.",
+        "Learn high-demand (Hot Technology) tools for this role: alteryx software, amazon elastic compute cloud ec2, amazon redshift."
+      ]
+    },
+    {
+      "Phase": "Phase 3: Proof of Work & Re-entry Applications (Final 2\u20134 Weeks)",
+      "Actions": [
+        "Build 1 small portfolio artifact or case study combining microsoft excel with alteryx software.",
+        "Target Remote / Hybrid openings and structured returnship programs for Data Scientists.",
+        "Keep adjacent backup paths open: Statisticians, Statistical Assistants, Financial Quantitative Analysts."
+      ]
+    }
+  ]
+}
