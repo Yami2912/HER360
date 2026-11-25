@@ -1,0 +1,34 @@
+{
+  "rows_in": 1505,
+  "repeated_rows_removed": 3,
+  "repeated_rows_removed_original_row_numbers": [
+    465,
+    466,
+    482
+  ],
+  "rows_out": 1502,
+  "history_status_counts": {
+    "sufficient": 927,
+    "limited": 414,
+    "insufficient": 161
+  },
+  "history_status_by_split": {
+    "test": {
+      "insufficient": 24,
+      "limited": 60,
+      "sufficient": 144
+    },
+    "train": {
+      "insufficient": 113,
+      "limited": 300,
+      "sufficient": 657
+    },
+    "validation": {
+      "insufficient": 24,
+      "limited": 54,
+      "sufficient": 126
+    }
+  },
+  "labels_modified": 0,
+  "values_imputed": 0
+}

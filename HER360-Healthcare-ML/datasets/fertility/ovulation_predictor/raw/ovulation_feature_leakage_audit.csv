@@ -1,0 +1,11 @@
+column,status,reason
+cycle_number,Potentially available,Confirm definition and timing in source documentation
+reproductive_category_code,Potentially available,Decode category and confirm it is known before prediction
+participant_group_id,Split/grouping only,Never use as a model feature
+split,Split metadata only,Never use as a model feature
+target_estimated_ovulation_day,Target only,Source-estimated label; not independently confirmed
+cycle_length_days,Excluded pending timing proof,May describe completed cycle; could leak future information
+first_day_high_fertility_sign,Excluded,Observed after cycle tracking begins; not guaranteed at prediction time
+total_high_days,Excluded,Accumulated over time; post-start information
+high_days_post_peak,Excluded,Post-peak information; leakage risk
+total_peak_days,Excluded,Accumulated/after-event information; leakage risk
