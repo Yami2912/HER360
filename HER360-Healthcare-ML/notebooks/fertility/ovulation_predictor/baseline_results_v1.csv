@@ -1,0 +1,13 @@
+method,subset,n,MAE,RMSE,within_1_day_%,within_2_days_%
+global_median,all,204,3.08,4.03,34,50
+global_median,insufficient,24,3.0,4.02,42,54
+global_median,limited,54,2.98,3.99,43,52
+global_median,sufficient,126,3.14,4.04,29,48
+calendar_minus14,all,204,2.46,3.25,37,56
+calendar_minus14,insufficient,24,3.0,4.02,42,54
+calendar_minus14,limited,54,2.28,3.11,43,59
+calendar_minus14,sufficient,126,2.43,3.14,34,55
+calendar_learned_offset,all,204,2.33,3.09,34,56
+calendar_learned_offset,insufficient,24,3.0,4.02,42,54
+calendar_learned_offset,limited,54,2.06,2.91,41,63
+calendar_learned_offset,sufficient,126,2.31,2.95,30,54

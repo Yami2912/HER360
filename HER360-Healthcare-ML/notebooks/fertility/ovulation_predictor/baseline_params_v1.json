@@ -1,0 +1,8 @@
+{
+  "global_median": 15.0,
+  "learned_offset": -13.333333333333329,
+  "fitted_on": "train split only",
+  "scored_on": "validation split only",
+  "luteal_rule_of_thumb_days": 14,
+  "note": "Engineering baseline. Not medical guidance."
+}
