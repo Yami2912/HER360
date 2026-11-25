@@ -1,0 +1,5 @@
+model,range_half_width_days,target_coverage_%,validation_coverage_%
+calendar_offset,3.67,80,84.4
+linear_regression,3.32,80,76.7
+random_forest,3.46,80,77.8
+gradient_boosting,3.36,80,77.8

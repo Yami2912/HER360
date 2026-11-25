@@ -1,0 +1,16 @@
+{
+  "features": [
+    "prev_cycle_length_1",
+    "prev_cycle_length_2",
+    "prev_cycle_length_3",
+    "prev_cycle_mean",
+    "prev_cycle_std",
+    "n_prev_cycles"
+  ],
+  "train_rows": 957,
+  "train_participants": 104,
+  "validation_rows": 180,
+  "cv": "GroupKFold(5) grouped by participant_group_id, train split only",
+  "test_split_used": false,
+  "note": "Engineering comparison. Not medical guidance."
+}
