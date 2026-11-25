@@ -1,0 +1,37 @@
+[
+  {
+    "query": "Is there an official Indian government website where I can file a workplace sexual harassment complaint online?",
+    "status": "ANSWERED",
+    "confidence_score": 0.5845,
+    "answer": "[Official Online Complaint Portal - How to File a Workplace Sexual Harassment Complaint Online (SHe-Box)]: SHe-Box (Sexual Harassment electronic Box) is an official Government of India online portal maintained by the Ministry of Women and Child Development. Women working in both public and private sector organizations can register workplace sexual harassment complaints online, which are routed to the relevant Internal Committee or Local Committee for action and status tracking. [Section 11 - Inquiry Timeline and Procedure]: The Internal Committee or Local Committee must complete its inquiry into a sexual harassment complaint within a period of 90 days. Both parties must be given an opportunity of being heard during the inquiry.",
+    "citations": [
+      {
+        "doc_id": "SHEBOX_PORTAL",
+        "act_name": "Ministry of Women and Child Development (MWCD) \u2014 SHe-Box Portal",
+        "section": "Official Online Complaint Portal",
+        "official_channel": "SHe-Box Official Portal (https://shebox.wcd.gov.in/)",
+        "source_url": "https://shebox.wcd.gov.in/",
+        "last_verified_date": "2026-11-25",
+        "similarity_score": 0.5845
+      },
+      {
+        "doc_id": "POSH_S11",
+        "act_name": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act)",
+        "section": "Section 11",
+        "official_channel": "Internal Committee (IC) / Local Committee (LC)",
+        "source_url": "https://www.indiacode.nic.in/",
+        "last_verified_date": "2026-11-25",
+        "similarity_score": 0.4693
+      }
+    ],
+    "disclaimer": "Disclaimer: This response is for general workplace-rights awareness in India and does not constitute legal advice. HER360 is not an official complaint portal. For formal action or case-specific guidance, consult a qualified legal professional or use official Government of India channels."
+  },
+  {
+    "query": "How do I claim Section 80C deductions on my Indian income tax return?",
+    "status": "ABSTAINED",
+    "confidence_score": 0.2069,
+    "answer": "I cannot provide a reliable, source-grounded answer to this question from my verified Indian workplace-rights corpus. Please consult a qualified legal professional or check official Government of India portals (India Code: https://www.indiacode.nic.in/, Ministry of Labour & Employment: https://labour.gov.in/).",
+    "citations": [],
+    "disclaimer": "Disclaimer: This response is for general workplace-rights awareness in India and does not constitute legal advice. HER360 is not an official complaint portal. For formal action or case-specific guidance, consult a qualified legal professional or use official Government of India channels."
+  }
+]
