@@ -1,0 +1,64 @@
+{
+  "project": "HER360 - Career Module (Feature A)",
+  "source": "O*NET Database (CSV individual files)",
+  "scope_limitation": "US occupational taxonomy; rankings/titles may not directly generalize to India without localization or ESCO/NCO mapping.",
+  "tables": {
+    "HER360_Occupations_Final_910.csv": {
+      "rows": 910,
+      "columns": [
+        "O*NET-SOC Code",
+        "Title",
+        "Description",
+        "Top_10_Core_Skills",
+        "Relevant_Core_Skill_Count",
+        "Software_Categories",
+        "Software_Tools",
+        "Num_Software_Tools",
+        "Hot_Tech_Tools",
+        "Alternate_Titles_Top10",
+        "Total_Alternate_Titles",
+        "Occupation_Text"
+      ]
+    },
+    "HER360_Career_Skills35_Processed.csv": {
+      "rows": 31850,
+      "unique_skills": 35,
+      "columns": [
+        "O*NET-SOC Code",
+        "Title",
+        "Element ID",
+        "Element Name",
+        "Skill_Category",
+        "Importance",
+        "Level",
+        "Recommend_Suppress",
+        "Not_Relevant",
+        "Description"
+      ]
+    },
+    "HER360_Software_Skills_910.csv": {
+      "rows": 31194,
+      "unique_tools": 8652,
+      "columns": [
+        "O*NET-SOC Code",
+        "Title",
+        "Workplace Example",
+        "Element ID",
+        "Element Name",
+        "Hot Technology",
+        "In Demand"
+      ]
+    },
+    "HER360_Related_Occupations_910.csv": {
+      "rows": 17776,
+      "columns": [
+        "O*NET-SOC Code",
+        "Title",
+        "Related O*NET-SOC Code",
+        "Related Title",
+        "Relatedness Tier",
+        "Index"
+      ]
+    }
+  }
+}
