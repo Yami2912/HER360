@@ -1,0 +1,8 @@
+{
+  "chosen_v1_approach": "calendar_offset",
+  "rule": "ML replaces calendar_offset only if CV gain 95% range excludes 0, mean CV gain >= 0.10 days, and validation gain >= 0",
+  "method": "participant-level bootstrap (5000 resamples) of paired absolute-error differences vs calendar_offset",
+  "cv": "GroupKFold(5), train split, rows with >=1 previous cycle",
+  "test_split_used": false,
+  "note": "Engineering decision for a college project. Not medical guidance."
+}

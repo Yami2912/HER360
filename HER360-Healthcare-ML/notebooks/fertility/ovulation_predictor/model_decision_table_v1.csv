@@ -1,0 +1,4 @@
+model,cv_gain,cv_ci_low,cv_ci_high,val_gain,val_participants,passes_rule
+linear_regression,0.178,0.015,0.335,-0.062,17,False
+random_forest,0.141,-0.008,0.284,-0.024,17,False
+gradient_boosting,0.144,-0.008,0.291,-0.063,17,False
