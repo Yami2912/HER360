@@ -1,0 +1,45 @@
+{
+  "model_version": "ovulation-calendar-v1",
+  "approach": "calendar_offset",
+  "formula": "estimated_ovulation_day = mean(previous cycle lengths, up to 3) + offset_days",
+  "offset_days": -13.3333,
+  "interval_half_width_days": 3.67,
+  "interval_nominal_coverage": 0.8,
+  "min_previous_cycles": 1,
+  "history_status_rule": {
+    "insufficient": "0 previous cycles (no estimate)",
+    "limited": "1-2 previous cycles",
+    "sufficient": "3 previous cycles"
+  },
+  "features": [
+    "prev_cycle_length_1",
+    "prev_cycle_length_2",
+    "prev_cycle_length_3",
+    "prev_cycle_mean",
+    "prev_cycle_std",
+    "n_prev_cycles"
+  ],
+  "trained_on": {
+    "splits": [
+      "train",
+      "validation"
+    ],
+    "rows": 1137,
+    "participants": 121
+  },
+  "test_metrics": {
+    "n": 204,
+    "MAE": 2.01,
+    "RMSE": 2.79,
+    "within_1_day_%": 39.2,
+    "within_2_days_%": 64.2,
+    "interval_coverage_%": 86.8
+  },
+  "created": "2026-11-28",
+  "limitations": [
+    "Target is a source-estimated ovulation day, not confirmed ovulation",
+    "About 157 participants; cannot validate irregular or PCOS cycles",
+    "Estimate only - not proof of ovulation and not contraception",
+    "College project dataset; replace with professionally verified data before real use"
+  ]
+}

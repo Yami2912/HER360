@@ -1,0 +1,44 @@
+{
+  "evaluated_on": "test",
+  "approach": "calendar_offset",
+  "offset_days": -13.3333,
+  "interval_half_width_days": 3.67,
+  "rows_total": 228,
+  "rows_without_estimate_insufficient_history": 24,
+  "participants_scored": 22,
+  "overall_rows_with_history": {
+    "n": 204,
+    "MAE": 2.01,
+    "RMSE": 2.79,
+    "within_1_day_%": 39.2,
+    "within_2_days_%": 64.2,
+    "interval_coverage_%": 86.8
+  },
+  "by_history_status": {
+    "limited": {
+      "n": 60,
+      "MAE": 1.98,
+      "RMSE": 2.91,
+      "within_1_day_%": 43.3,
+      "within_2_days_%": 63.3,
+      "interval_coverage_%": 86.7
+    },
+    "sufficient": {
+      "n": 144,
+      "MAE": 2.02,
+      "RMSE": 2.75,
+      "within_1_day_%": 37.5,
+      "within_2_days_%": 64.6,
+      "interval_coverage_%": 86.8
+    }
+  },
+  "reference_global_median": {
+    "n": 204,
+    "MAE": 2.28,
+    "RMSE": 3.21,
+    "within_1_day_%": 46.6,
+    "within_2_days_%": 68.1
+  },
+  "note": "Scored once. Not medical guidance.",
+  "provenance_note": "Recreated from the printed output of the original notebook 06 run, because the original file was never pushed to GitHub."
+}
